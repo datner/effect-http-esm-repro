@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "repro",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "exports": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch ./index.ts",
+    "generate:client": "openapi-generator-cli generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@effect/data": "^0.12.4",
+    "@effect/io": "^0.25.13",
+    "@effect/schema": "^0.19.3",
+    "effect-http": "^0.8.0"
+  },
+  "devDependencies": {
+    "dprint": "^0.36.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  }
+}
